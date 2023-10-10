@@ -1,9 +1,9 @@
 :root {
-  --mainEng-font: "SUIT";
-  --mainKor-font: "SUIT";
-  --mainNum-font: "SUIT";
+  --mainEng-font: "SUIT Variable";
+  --mainKor-font: "SUIT Variable";
+  --mainNum-font: "SUIT Variable";
 
-  --mainBg-color: #f3ede8;
+  /* --mainBg-color: rgb(217, 232, 243); */
   --subBg100: #cdc0b1;
   --subBg200: #afa395;
   --subBg300: #81887c;
@@ -17,21 +17,14 @@
   --black300: #686868;
   --black400: #e0e0e0;
 
+  color: #222;
   font-family: var(--mainEng-font), var(--mainKor-font);
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
+  font-size: 10px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-
-  @media (max-width: 800px) {
-      font-size: 14px;
-      line-height: 1.4;
-  }
 }
 
 body {
