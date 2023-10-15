@@ -74,7 +74,11 @@ const Header = () => {
                 <span className="block-text__word">
                   <span className="mask-text">
                     <img src={arrow} alt="" />
-                    <span style={{ animationDelay: "0ms" }}>Intro &nbsp;</span>
+                    <span style={{ animationDelay: "0ms" }}>
+                      <a href="https://poseybutter.github.io/presentation/">
+                        Intro &nbsp;
+                      </a>
+                    </span>
                   </span>
                 </span>
               </div>
@@ -83,7 +87,9 @@ const Header = () => {
                   <span className="mask-text">
                     <img src={arrow} alt="" />
                     <span style={{ animationDelay: "80ms" }}>
-                      Growth &nbsp;
+                      <a href="https://poseybutter.github.io/presentation#growth">
+                        Growth &nbsp;
+                      </a>
                     </span>
                   </span>
                 </span>
@@ -93,7 +99,9 @@ const Header = () => {
                   <span className="mask-text">
                     <img src={arrow} alt="" />
                     <span style={{ animationDelay: "160ms" }}>
-                      Will be &nbsp;
+                      <a href="https://poseybutter.github.io/presentation#willbe">
+                        Will be &nbsp;
+                      </a>
                     </span>
                   </span>
                 </span>
@@ -103,7 +111,9 @@ const Header = () => {
                   <span className="mask-text">
                     <img src={arrow} alt="" />
                     <span style={{ animationDelay: "240ms" }}>
-                      Thanks to &nbsp;
+                      <a href="https://poseybutter.github.io/presentation#thanks">
+                        Thanks to &nbsp;
+                      </a>
                     </span>
                   </span>
                 </span>

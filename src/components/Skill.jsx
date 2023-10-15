@@ -5,7 +5,6 @@ const skillText = [
     title: "기록/메모 습관화",
     desc1: "자주 쓰는 코드는 잘 보이는 곳에 메모하기",
     desc2: "프로젝트가 끝난 후 소스 정리하기",
-    desc3: "새롭게 알게된 것은 무조건 기록하기",
   },
   {
     title: "영리하게 질문하고 소통하기",
@@ -19,7 +18,7 @@ const skillText = [
   },
   {
     title: "꾸준한 공부",
-    desc1: "JS, React 등 프론트엔드 영역까지 확장하기",
+    desc1: "JavaScript, SCSS, React, php 등 프론트엔드 영역까지 확장하기",
     desc2: "코드를 바라보는 시각 넓히기",
   },
 ];
@@ -40,7 +39,6 @@ const Skill = () => {
               <h3>{skill.title} </h3>
               <p>{skill.desc1}</p>
               <p>{skill.desc2}</p>
-              <p>{skill.desc3}</p>
             </div>
           ))}
           <div>
