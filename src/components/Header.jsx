@@ -25,7 +25,7 @@ const Header = () => {
           </div>
         </button>
       </header>
-      <div className="side-area active">
+      <div className="side-area">
         <nav className="side-wrap" role="navigation">
           <ul className="list-gnb">
             <li className="gnb-item">

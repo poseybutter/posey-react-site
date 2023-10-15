@@ -4,9 +4,7 @@ const Site = () => {
   return (
     <section id="site">
       <div className="site__inner">
-        <h2 className="site__title">
-          Site coding <em>나의 작업물</em>
-        </h2>
+        <h2 className="site__title">작업물</h2>
         <div className="site__wrap">
           <article className="site__item s1">
             <span className="num">1.</span>
