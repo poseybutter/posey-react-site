@@ -1,0 +1,99 @@
+#skill {
+  width: 100%;
+  background: #fff;
+  border-top: 2px solid #222;
+  // border-bottom: 2px solid #222;
+  box-sizing: border-box;
+}
+.skill__inner {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+  // background: #fff;
+  // background: url("../../img/noise-bg.png") repeat;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  .skill__title {
+    position: sticky;
+    top: 10rem;
+    left: 0;
+    width: 50%;
+    height: 20vw;
+    font-size: 7rem;
+    line-height: 1.5;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: var(--black100);
+    padding-bottom: 5rem;
+
+    @media (max-width: 800px) {
+      width: 100%;
+      margin-bottom: 10vw;
+      font-size: 30px;
+      height: auto;
+      top: 68px;
+      background-color: var(--mainBg-color);
+    }
+  }
+  .skill__desc {
+    width: 70%;
+    margin-top: 1.8rem;
+    padding-bottom: 10rem;
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+
+    > div {
+      padding: 5rem 0;
+      border-bottom: 2px solid #222;
+
+      &:first-child {
+        padding: 0 0 5rem;
+      }
+      span {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4.5rem;
+        height: 4.5rem;
+        background: #222;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 2.6rem;
+        font-weight: 400;
+        // line-height: 1.3;
+        margin-right: 1.5rem;
+
+        @media (max-width: 800px) {
+          font-size: 20vw;
+        }
+      }
+      h3 {
+        display: inline-block;
+        font-size: 3.2rem;
+        letter-spacing: -0.05em;
+        margin-bottom: 1vw;
+      }
+      p {
+        display: block;
+        width: 100%;
+        margin-top: 1.5rem;
+        font-size: 2.4rem;
+        font-weight: 500;
+        letter-spacing: -0.07em;
+
+        em {
+          color: rgb(238, 72, 42);
+          font-weight: 700;
+        }
+      }
+    }
+
+    > div + div {
+      // margin-top: 7rem;
+    }
+  }
+}
