@@ -87,4 +87,13 @@ export const portText = [
     view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
     name: "포트폴리오",
   },
+  {
+    num: "08",
+    title: "대전방산혁신클러스터",
+    desc: " ",
+    img: port01,
+    code: "/",
+    view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
+    name: "포트폴리오",
+  },
 ];

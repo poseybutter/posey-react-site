@@ -1,7 +1,7 @@
 import React from "react";
 
-import logo_w from "../assets/img/logo2.svg";
-import arrow from "../assets/img/icon_news_arrow.png";
+import logo_w from "./../assets/img/logo2.svg";
+import arrow from "./../assets/img/icon_news_arrow.png";
 
 const Header = () => {
   return (

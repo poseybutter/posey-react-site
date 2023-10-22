@@ -3,9 +3,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // react-router-dom에서 필요한 모듈들을 불러오고 있다. BrowserRouter, Route, Routes는 라우팅을 구현하는 데 필요한 컴포넌트들이다.
 
 import HomeView from "./views/HomeView";
+
+// HomeView라는 이름으로, "./views/HomeView" 경로에 있는 컴포넌트를 불러오고 있다. 이는 HomeView 컴포넌트가 해당 경로에 있는 파일에서 정의되어 있다는 것을 의미한다.
+
 import lenis from "./utils/lenis";
 import link from "./utils/link";
-// HomeView라는 이름으로, "./views/HomeView" 경로에 있는 컴포넌트를 불러오고 있다. 이는 HomeView 컴포넌트가 해당 경로에 있는 파일에서 정의되어 있다는 것을 의미한다.
 
 const App = () => {
   // 화살표 함수로 정의된 함수형 컴포넌트. 리액트 애플리케이션의 최상위 컴포넌트로, 라우팅 설정을 포함하고 있다.

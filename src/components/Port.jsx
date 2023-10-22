@@ -6,13 +6,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Port = () => {
   const horizontalRef = useRef(null);
-  const sectionsRef = useRef([]);
+  const sectionRef = useRef([]);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     const horizontal = horizontalRef.current;
-    const sections = sectionsRef.current;
+    const sections = sectionRef.current;
 
     let scrollTween = gsap.to(sections, {
       xPercent: -120 * (sections.length - 1),
@@ -34,12 +34,16 @@ const Port = () => {
   }, []);
 
   return (
-    <section id="port">
+    <section id="port" ref={horizontalRef}>
       <div className="port__inner">
-        <div className="port__title">참여 프로젝트</div>
+        <h2 className="port__title">참여 프로젝트</h2>
         <div className="port__wrap">
           {portText.map((port, key) => (
-            <article className={`port__item p${key + 1}`} key={key}>
+            <article
+              className={`port__item p${key + 1}`}
+              key={key}
+              ref={(el) => (sectionRef.current[key] = el)}
+            >
               <span className="num mont">{port.num}.</span>
               <a
                 href={port.code}
