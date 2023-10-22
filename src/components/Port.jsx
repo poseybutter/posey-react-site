@@ -15,7 +15,7 @@ const Port = () => {
     const sections = sectionRef.current;
 
     let scrollTween = gsap.to(sections, {
-      xPercent: -120 * (sections.length - 1),
+      xPercent: -60 * (sections.length - 1),
       ease: "none",
       scrollTrigger: {
         trigger: horizontal,
