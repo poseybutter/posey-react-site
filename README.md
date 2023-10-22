@@ -11,7 +11,7 @@ React를 이용하여 사이트를 제작합니다.
 다양한 방법을 사용하여 흐름과 감각을 익힐 수 있는 시간이었습니다.
 
 ## 완성작 보기 
-미리보기 : posey-react-site.netlify.app/
+미리보기 : posey-react-site.netlify.app
 
 ## 사용 스택
 - react(https://ko.legacy.reactjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
