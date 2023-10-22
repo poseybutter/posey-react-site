@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Skip from "../components/Skip";
 import Header from "../components/Header";
 import Main from "../components/Main";
@@ -8,15 +8,8 @@ import Site from "../components/Site";
 import Port from "../components/Port";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import lenis from "../utils/lenis";
-import link from "../utils/link";
 
 const HomeView = () => {
-  useEffect(() => {
-    lenis();
-    link();
-  }, []);
-
   return (
     <>
       <Skip />
