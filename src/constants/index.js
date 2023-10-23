@@ -52,7 +52,7 @@ export const portText = [
     title: "아이기스테크 제로다크웹",
     desc: "메인, 서브 페이지 리뉴얼",
     img: port03,
-    code: "https://aegistech.jp/html/zero_index_new.html",
+    code: "https://aegistech.jp/html/sub/zero_sub01.html",
     view: "https://aegistech.jp/html/zero_index_new.html",
     name: "",
   },
@@ -68,10 +68,10 @@ export const portText = [
   {
     num: "05",
     title: "한국표준과학연구원",
-    desc: "접근성",
+    desc: "접근성, 조직도 페이지 작업",
     img: port05,
     code: "https://www.kriss.re.kr/",
-    view: "https://www.kriss.re.kr/",
+    view: "https://www.kriss.re.kr/orgChart.es?mid=a10102000000",
     name: "",
   },
   {

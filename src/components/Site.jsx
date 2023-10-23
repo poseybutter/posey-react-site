@@ -15,7 +15,9 @@ const Site = () => {
             </div>
             <h3>인강과 함께 스타벅스 메인 페이지 클론코딩</h3>
             <div className="btn">
-              <a href="https://port2023-next.netlify.app/">view</a>
+              <a href="https://poseybutter.github.io/starbucks-vanilla-app/">
+                view
+              </a>
             </div>
             <div className="info">
               <span>site coding</span>
@@ -35,7 +37,7 @@ const Site = () => {
             </h3>
             <div className="btn">
               <div className="btn">
-                <a href="https://port2023-next.netlify.app/">view</a>
+                <a href="https://www.kwaternanum.or.kr/">view</a>
               </div>
             </div>
             <div className="info">
@@ -53,7 +55,9 @@ const Site = () => {
             </div>
             <h3 className="title">환경책임보험사업단 메인 페이지 클론코딩</h3>
             <div className="btn">
-              <a href="https://port2023-next.netlify.app/">view</a>
+              <a href="http://eigkorea.planidev.com/clone/main/main.html">
+                view
+              </a>
             </div>
             <div className="info">
               <span>site coding</span>
@@ -70,7 +74,9 @@ const Site = () => {
             </div>
             <h3 className="title">세종신용보증재단 서브 콘텐츠 연습</h3>
             <div className="btn">
-              <a href="https://port2023-next.netlify.app/">view</a>
+              <a href="http://eigkorea.planidev.com/clone/sub/sub06/sub06_02.html">
+                view
+              </a>
             </div>
             <div className="info">
               <span>site coding</span>
@@ -86,7 +92,9 @@ const Site = () => {
             </div>
             <h3 className="title">국가독성정책 SNS 로그인 추가</h3>
             <div className="btn">
-              <a href="https://port2023-next.netlify.app/">view</a>
+              <a href="https://www.kitox.re.kr/doksa/login/login/redirect/eNortjK0sFLSL8jPyUyu1C_LTC3Xz0zRNzFQsgZcMG7RCAg~">
+                view
+              </a>
             </div>
             <div className="info">
               <span>site coding</span>
