@@ -1,4 +1,9 @@
-import port01 from "../assets/img/port01.jpg";
+import port01 from "../assets/img/port01.png";
+import port02 from "../assets/img/port02.png";
+import port03 from "../assets/img/port03.png";
+import port04 from "../assets/img/port04.png";
+import port05 from "../assets/img/port05.png";
+import port06 from "../assets/img/port06.png";
 
 export const skillText = [
   {
@@ -29,53 +34,53 @@ export const portText = [
     title: "계룡군문화축제",
     desc: "유지보수",
     img: port01,
-    code: "https://github.com/kimsangjunv1/-React-Portfolio",
-    view: "https://portfoliosj-react.netlify.app",
+    code: "https://www.m-festival.org/",
+    view: "https://www.m-festival.org/",
     name: "",
   },
   {
     num: "02",
     title: "KAIST ITVC",
     desc: "서브 콘텐츠 서포트",
-    img: port01,
-    code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-    view: "https://portfolio-313.web.app/",
+    img: port02,
+    code: "https://itvc.planidev.com/",
+    view: "https://itvc.planidev.com/",
     name: "",
   },
   {
     num: "03",
     title: "아이기스테크 제로다크웹",
     desc: "메인, 서브 페이지 리뉴얼",
-    img: port01,
-    code: "/",
-    view: "https://junseungpark.github.io/portfolio/index3.html",
+    img: port03,
+    code: "https://aegistech.jp/html/zero_index_new.html",
+    view: "https://aegistech.jp/html/zero_index_new.html",
     name: "",
   },
   {
     num: "04",
-    title: "RCA 국문",
+    title: "RCA",
     desc: "유지보수, 전반적인 콘텐츠 추가 및 수정",
-    img: port01,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html",
+    img: port04,
+    code: "https://rcaro.org/korean",
+    view: "https://rcaro.org/korean",
     name: "",
   },
   {
     num: "05",
     title: "한국표준과학연구원",
     desc: "접근성",
-    img: port01,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
+    img: port05,
+    code: "https://www.kriss.re.kr/",
+    view: "https://www.kriss.re.kr/",
     name: "",
   },
   {
     num: "06",
     title: "대전방산혁신클러스터",
     desc: "첫 프로젝트 ! 구축부터 끝까지",
-    img: port01,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
+    img: port06,
+    code: "https://www.djdi.or.kr/",
+    view: "https://www.djdi.or.kr/",
     name: "",
   },
 ];

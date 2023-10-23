@@ -112,13 +112,14 @@
       .title {
         font-family: var(--mainKor-font);
         margin-bottom: 1rem;
+        font-size: 3rem;
       }
       .btn {
         a {
           text-decoration: underline;
           text-transform: uppercase;
           color: var(--black200);
-          font-size: 1rem;
+          font-size: 2rem;
           transition: all 0.3s;
           margin: 0 2px;
 
@@ -147,7 +148,8 @@
 
         span {
           font-family: var(--mainKor-font);
-          font-size: 12px;
+          font-size: 1.8rem;
+          font-weight: 800;
           padding: 3px 0;
           text-transform: uppercase;
         }
