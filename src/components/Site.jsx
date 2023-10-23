@@ -55,9 +55,7 @@ const Site = () => {
             </div>
             <h3 className="title">환경책임보험사업단 메인 페이지 클론코딩</h3>
             <div className="btn">
-              <a href="http://eigkorea.planidev.com/clone/main/main.html">
-                view
-              </a>
+              <a href="http://eigkorea.planidev.com/">view</a>
             </div>
             <div className="info">
               <span>site coding</span>
@@ -74,7 +72,7 @@ const Site = () => {
             </div>
             <h3 className="title">세종신용보증재단 서브 콘텐츠 연습</h3>
             <div className="btn">
-              <a href="http://eigkorea.planidev.com/clone/sub/sub06/sub06_02.html">
+              <a href="http://eigkorea.planidev.com/clone/sub/sub05/sub05_04.html">
                 view
               </a>
             </div>

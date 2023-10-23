@@ -34,7 +34,7 @@ export const portText = [
     title: "계룡군문화축제",
     desc: "유지보수",
     img: port01,
-    code: "https://www.m-festival.org/",
+    code: "https://www.m-festival.org/html/korean/sub03/sub0304.php",
     view: "https://www.m-festival.org/",
     name: "",
   },
@@ -77,7 +77,7 @@ export const portText = [
   {
     num: "06",
     title: "대전방산혁신클러스터",
-    desc: "첫 프로젝트 ! 구축부터 끝까지",
+    desc: "첫 프로젝트 (ver. MXDS) ! 메인, 서브 페이지 작업",
     img: port06,
     code: "https://www.djdi.or.kr/",
     view: "https://www.djdi.or.kr/",
